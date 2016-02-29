@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         Double dollarAmount = shillingAmount * 102.65;
 
-        Toast.makeText(getApplicationContext(), dollarAmount.toString() + " Dollars", Toast.LENGTH_LONG.show);
+        Toast.makeText(getApplicationContext(), dollarAmount.toString() + " Dollars", Toast.LENGTH_LONG).show();
 
 
     }
